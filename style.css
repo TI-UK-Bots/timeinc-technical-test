@@ -1,0 +1,33 @@
+body {
+  font:normal 0.75em/1.4 sans-serif;
+}
+p {
+  margin-top: 0;
+}
+table, tr, td, th {
+  border:1px solid #ccc;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+button {
+  padding: 10px;
+  display: block;
+  margin: 20px 0;
+  background-color: #cd5c5c;
+  color: #ffefd5;
+  border:0;
+  border-radius: 5px;
+  box-shadow: 0 4px 0 0 #b33737;
+  cursor: pointer;
+  position: relative;
+  outline: 0;
+}
+button:active {
+  box-shadow: none;
+  top: 4px;
+}
+img {
+  width:200px;
+}
